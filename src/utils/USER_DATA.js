@@ -1,7 +1,7 @@
 export const USER_DATA = [
      {
         id:1,
-        name:"Gouarav",
+        name:"GOURAV",
         age:22
      },
      {

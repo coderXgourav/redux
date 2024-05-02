@@ -3,14 +3,13 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import { Provider } from 'react-redux';
-import appStore from './utils/appData';
-
+import storeData from './utils/storeData';
 
 
 function App() {
   return (
-<>
-<Provider store={appStore}>
+   <>
+<Provider store={storeData}>
 <Routes>
 <Route path='/' element={<Home/>}></Route>
 <Route path='/about' element={<About/>}></Route>
